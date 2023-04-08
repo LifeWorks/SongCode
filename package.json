@@ -26,6 +26,16 @@
     "onCommand: songcode.quit"
   ],
   "main": "./extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LifeWorks/SongCode.git"
+  },
+  "keywords": [
+    "Personal",
+    "extension"
+  ],
+  "author": "Song Feng",
+  "license": "GLPv3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
