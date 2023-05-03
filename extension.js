@@ -7,7 +7,8 @@ function activate(context) {
       const document = editor.document;
       if (document.isUntitled || document.isDirty) {
         try {
-          await vscode.workspace.saveTextDocument(document);
+          // await vscode.workspace.saveTextDocument(document);
+          await vscode.commands.executeCommand('workbench.action.files.save');
           vscode.window.showInformationMessage('Document saved successfully!');
         } catch (error) {
           vscode.window.showErrorMessage('Error saving the document.');
