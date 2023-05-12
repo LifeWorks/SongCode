@@ -2,7 +2,7 @@
   "name": "songcode",
   "displayName": "Song's VSCode",
   "description": "Personal VSCode extension",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.77.0"
   },
